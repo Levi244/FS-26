@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1> Pizza </h1>
+    <br/>
+    <hr/>
+    <!-- Tag de fomulario -->
+    <form>
+        <h2>Dados do cliente</h2>
+        <br/>
+        <label for="nome_cliente">Nome: </label>
+        <input type="text" id="nome_cliente" placeholder="Nome" name="nome" />
+        <br />
+        <label for="email_cliente">Email: </label>
+        <input type="email" id="email_cliente" placeholder="exemplo@com.br" name="email">
+        <br />
+        <hr />
+        <h2>Endereço</h2>
+        <br />
+        <label for="bairro_cliente">Bairro: </label>
+        <input type="text" placeholder="Bairro" id="bairro_cliente" name="bairro" />
+        <br />
+        <label for="uf_cliente">UF: </label>
+        <input type="text" placeholder="UF" id="uf_cliente" name="uf" />
+        <!-- Logradouro -->
+        <!-- Cep -->
+        <!-- Localidade -->
+        <!-- Complemento -->
+        <br />
+        <label for="numero_endereco_cliente">Numero: </label>
+        <input type="number" placeholder="numero" id="numero_endereco_cliente" name="numero" />
+        <br/>
+        <hr/>
+        <h2>Monte a sua Pizza</h2>
+        <br/>
+        <p> Borda </p>
+        <br/>
+        <input type="radio" id="catupiry" name="borda_pizza" value="Catupiry">
+        <label for="Catupiry">Catupiry </label>
+        <br/>
+        <input type="radio" id="cheddar" name="borda_pizza" value="Cheddar">
+        <label for="Cheddar">Cheddar </label>
+        <br/>
+        <input type="radio" id="chocolate" name="borda_pizza" value="Chocolate">
+        <label for="Chocolate">Chocolate </label>
+        <br/>
+        <br/>
+        <!-- Select -->
+        <label for="sabor">Sabor: </label>
+        <select name="sabor" id="sabor">
+            <option value="frango">Frango</option>
+            <option value="calabresa">Calabresa</option>
+            <option value="portuguesa">Portuguesa</option>
+            <option value="chocolate">Chocolate</option>
+        </select>
+        <br/>
+        <p> Adicionais </p>
+        <input type="checkbox" id="queijo" name="adicional1" value="queijo"/>
+        <label for="adicional1"> Queijo </label>
+        <br/>
+        <input type="checkbox" id="tomate" name="adicional2" value="tomate"/>
+        <label for="adicional2"> Tomate </label>
+        <br/>
+        <input type="checkbox" id="milho" name="adicional3" value="milho"/>
+        <label for="adicional3"> Milho </label>        
+       <br/> 
+        <label for="obs"> Observação</label>
+        <br/>
+        <textarea name="obs" id="obs"></textarea>
+        <br/>
+        <br/>
+        <input type="submit" value="Ok"/>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
