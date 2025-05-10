@@ -1,12 +1,22 @@
+:root{
+    --cor-principal: #040622;
+    --cor-secundaria: #e3d45f;
+    --cor-generica: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   color: #ffffff;
+   color: var(--cor-generica);
 }
 
 body {
-    background-color: #040622;
+    background-color: var(--cor-principal);
     font-family: "Poppins";
 }
 
